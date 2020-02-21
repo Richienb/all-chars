@@ -1,14 +1,13 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * All unicode characters, including emoji and distinct whitespace.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const allChars = require("all-chars");
+ *
+ * allChars();
+ * //=> [ ' ', '!', '"', '#', '$', '%', '&',  "'", '(', ... ]
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare function allChars(): string[]
 
-export = theModule;
+export = allChars

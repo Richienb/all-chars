@@ -1,7 +1,7 @@
 "use strict"
 
-module.exports = (input, { postfix = "rainbows" } = {}) => {
-	if (typeof input !== "string") throw new TypeError(`Expected a string, got ${typeof input}`)
+const arrayUniq = require("array-uniq")
+const unicodeChars = require("unicode-chars")
+const emoji = require("emoji.json")
 
-	return `${input} & ${postfix}`
-}
+module.exports = () => arrayUniq([...unicodeChars(), ...emoji.map(({ char }) => char)])

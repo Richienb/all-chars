@@ -1,8 +1,8 @@
 {
-	"name": "the-module",
+	"name": "all-chars",
 	"version": "0.0.0",
-	"description": "My awesome module.",
-	"repository": "https://github.com/Richienb/the-module.git",
+	"description": "All unicode characters, including emoji and distinct whitespace.",
+	"repository": "https://github.com/Richienb/all-chars.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"main": "index.js",
@@ -17,11 +17,29 @@
 		"lint": "xo",
 		"test": "yarn lint && ava"
 	},
-	"keywords": [],
-	"dependencies": {},
+	"keywords": [
+		"all",
+		"chars",
+		"characters",
+		"text",
+		"string",
+		"unicode",
+		"emoji",
+		"ascii",
+		"symbol",
+		"symbols",
+		"script",
+		"scripts"
+	],
+	"dependencies": {
+		"array-uniq": "^2.1.0",
+		"emoji.json": "^12.1.1",
+		"unicode-chars": "^1.0.1"
+	},
 	"devDependencies": {
 		"ava": "^3.3.0",
 		"eslint-config-richienb": "^0.3.0",
+		"is-array-uniq": "^1.0.0",
 		"xo": "^0.26.1"
 	},
 	"resolutions": {

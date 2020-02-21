@@ -1,41 +1,24 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# All Chars [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/all-chars/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/all-chars)
 
-My awesome module.
+All unicode characters, including emoji and distinct whitespace.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/all-chars.png)](https://npmjs.com/package/all-chars)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install all-chars
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const allChars = require("all-chars");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+allChars();
+//=> [ ' ', '!', '"', '#', '$', '%', '&',  "'", '(', ... ]
 ```
 
 ## API
 
-### theModule(input, options?)
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+### allChars()
