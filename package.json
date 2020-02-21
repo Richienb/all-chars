@@ -1,6 +1,6 @@
 {
 	"name": "all-chars",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "All unicode characters, including emoji and distinct whitespace.",
 	"repository": "https://github.com/Richienb/all-chars.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
